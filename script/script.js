@@ -51,7 +51,7 @@ function mostrarFilmes(lista) {
 }
 
 mostrarFilmes(filmes)
-function verDetalhes(titulo) {
+function verDetalhes(titulo, descricao) {
     Swal.fire({
         title: titulo,
         text: descricao,

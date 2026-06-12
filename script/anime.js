@@ -51,7 +51,7 @@ function mostrarAnimes(lista) {
 }
 
 mostrarAnimes(animes)
-function verDetalhes(titulo) {
+function verDetalhes(titulo, descricao) {
     Swal.fire({
         title: titulo,
         text: descricao,

@@ -51,7 +51,7 @@ function mostrarSeries(lista) {
 }
 
 mostrarSeries(series)
-function verDetalhes(titulo) {
+function verDetalhes(titulo, descricao) {
     Swal.fire({
         title: titulo,
         text: descricao,
