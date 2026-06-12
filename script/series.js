@@ -54,7 +54,7 @@ mostrarSeries(series)
 function verDetalhes(titulo) {
     Swal.fire({
         title: titulo,
-        text: "Mais informações da Serie",
+        text: descricao,
         icon: "info"
     })
 }

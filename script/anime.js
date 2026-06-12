@@ -54,7 +54,7 @@ mostrarAnimes(animes)
 function verDetalhes(titulo) {
     Swal.fire({
         title: titulo,
-        text: "Mais informações do Anime",
+        text: descricao,
         icon: "info"
     })
 }
